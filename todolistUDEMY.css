@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Things I've Learned
+</title>
+</head>
+<body>
+<h1>Things I've Learned</h1>
+
+<!--<h2>Internet Basics</h2>
+<ol>
+	<li>HTTP Requests</li>
+	<li>IP Address</li>
+	<li>Servers</li>
+</ol>
+<h2>HTML</h2>
+
+<a href="https://www.linkedin.com/in/alexa-cash/">Alexa the Boss Bitch</a><p>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Clouds_over_the_Atlantic_Ocean.jpg/1200px-Clouds_over_the_Atlantic_Ocean.jpg">
+</p>
+<ul>
+	<li>Stands for <strong>Hyper Text Markup Language</strong></li>
+	<li>Lots of Tags
+		<ul><li>Boilerplate
+			<ol>
+			<li>Doctype</li>
+			<li>HTML</li>
+			<li>Head</li>
+				<ol><li>Title</li>
+				</ol></li>
+			<li>Body</li>
+			</ol></li>
+	<li>Headings</li>
+	<li>Paragraph</li>
+	<li><em>em</em></li>
+	<li><strong>strong</strong></li>
+</ul>-->
+
+
+<!--
+<table border="1">
+
+<thead>
+	<tr>
+		<th>name</th>		
+		<th>age</th>
+		<th>Breed</th>
+	</tr>
+</thead>
+<tbody>
+	<tr>
+		<td>henry</td>
+		<td>eight</td>
+		<td>ab</td>
+	</tr>
+	<tr>
+		<td>peach</td>
+		<td>5</td>
+		<td>ab</td>
+	</tr>
+</tbody>
+</table>
+
+
+<form action="https://www.facebook.com/" method="GET">
+
+<label>
+  Username:
+	<input type="text" placeholder="username">
+</label>
+<label>
+   Password:
+	<input type="password" placeholder="password">
+</label>	
+	<input type="submit">
+</form>
+
+<p>Do you like green or blue?</p>
+
+<form>
+	<label for="green">GREEN:</label>
+	<input name="petChoice" id="GREEN" type="radio" value="green">
+
+	<label for="blue">BLUE:</label>
+	<input name="petChoice" id="BLUE" type="radio" value="blue">
+
+<p>What's your favorite letter?</p>
+	<select name="letter">
+		<option>a</option>
+		<option>b</option>
+		<option>c</option>
+		<option>d</option>
+	</select>
+
+	<button>Go!</button>
+
+</form>
+-->
+<h1>Register</h1>
+	<form action="" border="2">
+		<label for="firstName">First Name:</label>
+		<input id="firstName" type="text" placeholder="John">
+
+		<label for="lastName">Last Name: </label>
+		<input id="lastName" type="text" placeholder="Smith">
+
+<br/>	
+			<label for="male">Male</label>
+				<input name="gender" id="male" type="radio" value="male">
+
+			<label for="female">Female</label>						
+				<input name="gender" id="female" type="radio" value="female>
+
+			<label for="other">Other</label>						
+				<input name="gender" id="other" type="radio" value="other">
+<br/>
+
+		<label for="email">Email:</label>
+			<input id="emailAddress" type="email" placeholder="Your Email">
+
+		<label for="emailPassword">Password: </label>
+			<input id="emailPassword" type="password" placeholder="Your Password" pattern=".{5,10}">
+<br/>
+		<label for="birthday">Birthday:</label>
+		<select name="Month">
+			<option>Month</option>
+			<option>June</option>
+			<option>May</option>
+		</select>
+
+		<select name="Day">
+			<option>Day</option>
+			<option>1</option>
+			<option>2</option>
+		</select>
+
+		<select name="Year">
+			<option>Year</option>
+			<option>1992</option>
+			<option>1993</option>
+		</select>
+<br/>
+		<label for="termsandconditions">I agree to the terms and conditions</label>
+			<input type="checkbox">
+<br/>
+		<button>Submit</button>
+
+</form>
+
+
+</body></html>

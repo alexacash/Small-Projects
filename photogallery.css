@@ -1,0 +1,35 @@
+img {
+	float: left;
+	width:30%;
+	margin: 1.66%;
+}
+
+h1 {font-family: raleway;
+	margin-left: 1.66%;
+	font-size: 30px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 2px solid #008B8B;
+	width:50%;
+	gradient:;
+	padding-bottom: 20px ;
+	}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
